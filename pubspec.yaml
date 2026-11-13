@@ -1,0 +1,41 @@
+name: mage_photo_edit
+description: "Mage — a Pixso-based local photo and poster editor."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.4
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+  web: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+    - family: Noto Sans
+      fonts:
+        - asset: assets/fonts/NotoSans.ttf
+    - family: Oxanium
+      fonts:
+        - asset: assets/fonts/Oxanium.ttf
+    - family: Patua One
+      fonts:
+        - asset: assets/fonts/PatuaOne.ttf
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers.ttf
